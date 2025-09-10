@@ -2,15 +2,13 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 const Layout = ({ children }) => {
-    return (
-        <>
-            <Header />
-            <main className='wrap-layout'>
-                {children}
-            </main>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <main className="wrap-layout">{children}</main>
+      <Footer />
+    </>
+  );
 };
 
 export default Layout;

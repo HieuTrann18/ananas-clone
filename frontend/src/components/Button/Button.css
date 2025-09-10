@@ -1,5 +1,5 @@
 @reference "tailwindcss";
 
-.btn-primary{
-    @apply bg-amber-300 shadow-amber-500 rounded-lg p-4 hover:shadow-xl text-white
+.btn-primary {
+  @apply bg-amber-300 shadow-amber-500 rounded-lg p-4 hover:shadow-xl text-white;
 }
